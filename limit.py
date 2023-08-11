@@ -28,17 +28,17 @@ output:[4,5]
 #         return arry[min_index:min_index]
 
 
-def limit(arry, max=None, min=None):
-    l = []
-    if max:
-        for i in arry:
-            if i >=max:
-                l.append(i)
-    if min:
-        for i in arry:
-            if i <=min:
-                l.append(i)
-    return l
-print(limit([1,2,3,4,5],min=3))
+# def limit(arry, max=None, min=None):
+#     l = []
+#     if max:
+#         for i in arry:
+#             if i >=max:
+#                 l.append(i)
+#     if min:
+#         for i in arry:
+#             if i <=min:
+#                 l.append(i)
+#     return l
+# print(limit([1,2,3,4,5],min=3))
 
 
